@@ -1,0 +1,31 @@
+{
+  "name": "check-dictionary-word",
+  "version": "1.0.0",
+  "description": "A module to verify if a word is a valid dictionary word. Simple and efficient word-check functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chathurasachithra/check-dictionary-word.git"
+  },
+  "keywords": [
+    "dictionary",
+    "words",
+    "check",
+    "english",
+    "exist",
+    "valid",
+    "node"
+  ],
+  "author": "chythi <https://github.com/chathurasachithra>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chathurasachithra/check-dictionary-word/issues"
+  },
+  "homepage": "https://github.com/chathurasachithra/check-dictionary-word",
+  "dependencies": {
+    "node-lemmatizer": "^1.0.3"
+  }
+}

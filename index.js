@@ -1,4 +1,3 @@
-const nodeLemmatizer = require('node-lemmatizer');
 const dictionary = require('./dict/index');
 
 /**
@@ -9,10 +8,6 @@ const dictionary = require('./dict/index');
  */
 const checkDictionaryWord = (word) => {
     word = word.trim().toLowerCase();
-    const lemmaWords = nodeLemmatizer.only_lemmas(word);
-    if (lemmaWords.length > 1) {
-        return true;
-    }
     const targetLengthProperty = `char${word.length}Words`;
     if (!dictionary[targetLengthProperty]) {
         return false;

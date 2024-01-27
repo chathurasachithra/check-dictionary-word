@@ -1,6 +1,6 @@
 {
   "name": "check-dictionary-word",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A module to verify if a word is a valid dictionary word. Simple and efficient word-check functionality.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,5 @@
   },
   "homepage": "https://github.com/chathurasachithra/check-dictionary-word",
   "dependencies": {
-    "node-lemmatizer": "^1.0.3"
   }
 }

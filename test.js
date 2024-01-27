@@ -8,6 +8,7 @@ const words = [
   ['cccccccccccccccccc', false],
   ['trinitrophenylmethylnitramine', true],
   ['iphone', true],
+  ['having', true],
   ['fg45fg', false]
 ];
 
